@@ -20,8 +20,8 @@ body {
   background-color: white;
   border-radius: 25px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  border-top: 10px solid #f4c84d;
-  border-bottom: 10px solid #f4c84d;
+  border-top: 10px solid #047857;
+  border-bottom: 10px solid #047857;
 }
 
 header {
@@ -35,7 +35,7 @@ header h1 {
   font-size: 2.2rem;
   margin-bottom: 0.5rem;
   font-weight: 700;
-  color: #e0a800;
+  color: #047857;
   letter-spacing: 1px;
 }
 
@@ -46,8 +46,8 @@ header:after {
   height: 2px;
   background: repeating-linear-gradient(
     90deg,
-    #f4c84d,
-    #f4c84d 8px,
+    #047857,
+    #047857 8px,
     transparent 8px,
     transparent 16px
   );
@@ -58,7 +58,7 @@ header:after {
   position: absolute;
   top: 10px;
   right: 10px;
-  color: #f4c84d;
+  color: #047857;
   font-size: 0.9rem;
   font-style: bold;
 }
@@ -85,11 +85,11 @@ header:after {
   max-height: 90%;
   overflow-y: auto;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-  border: 5px solid #f4c84d;
+  border: 5px solid #047857;
 }
 
 .popup h2 {
-  color: #e0a800;
+  color: #047857;
   font-size: 1.5rem;
   text-align: center;
 }
@@ -109,7 +109,7 @@ header:after {
 .subtitle-center {
   text-align: center;
   margin-bottom: 1.2rem; /* h5와 다음 요소 사이 간격 조정 */
-  color: #e0a800; /* h2와 같은 색상 */
+  color: #047857; /* h2와 같은 색상 */
 }
 
 /* 빨간색 강조 텍스트 (굵게) */
@@ -168,9 +168,9 @@ header:after {
 
 .day-button {
   padding: 1rem 1.5rem;
-  background-color: #e8f8f5;
-  color: #e0a800;
-  border: 2px solid #f4c84d;
+  background-color: #d1fae5;
+  color: #047857;
+  border: 2px solid #047857;
   border-radius: 12px;
   font-size: 1.1rem;
   font-weight: 600;
@@ -179,7 +179,7 @@ header:after {
 }
 
 .day-button:hover {
-  background-color: #f4c84d;
+  background-color: #047857;
   color: white;
 }
 
@@ -191,7 +191,7 @@ header:after {
 }
 
 .day-button.active {
-  background-color: #f4c84d;
+  background-color: #047857;
   color: white;
 }
 
@@ -201,7 +201,7 @@ header:after {
   align-items: center;
   margin-bottom: 0.7rem;
   padding: 0.5rem;
-  color: #e0a800;
+  color: #047857;
 }
 
 .timer-display {
@@ -211,7 +211,7 @@ header:after {
 
 .timer-display h3 {
   font-size: 1.5rem;
-  color: #e0a800;
+  color: #047857;
   margin-bottom: 0.5rem;
 }
 
@@ -222,20 +222,20 @@ header:after {
 
 .progress-display h3 {
   font-size: 1.5rem;
-  color: #e0a800;
+  color: #047857;
   margin-bottom: 0.5rem;
 }
 
 .progress {
   height: 100%;
-  background-color: #f4c84d;
+  background-color: #047857;
   width: 0%;
   transition: width 0.5s ease;
   border-radius: 8px;
 }
 
 .sentence-display {
-  background-color: #e8f8f5;
+  background-color: #d1fae5;
   padding: 1.2rem;
   border-radius: 15px;
   margin-bottom: 1rem;
@@ -244,22 +244,22 @@ header:after {
   font-size: 1.3rem;
   font-weight: 500;
   color: #333;
-  border: 1px dashed #f4c84d;
+  border: 1px dashed #047857;
 }
 
 /* isFinal: true인 중요한 문장 스타일 */
 .sentence-display .final-sentence,
 #korean-sentence.final-sentence {
-  color: #e0a800;
+  color: #047857;
   font-weight: 700;
   font-size: 1.4rem;
-  text-shadow: 0 1px 2px rgba(224, 168, 0, 0.1);
+  text-shadow: 0 1px 2px rgba(4, 120, 87, 0.1);
 }
 
 .sentence-display:has(.final-sentence) {
-  background: linear-gradient(135deg, #fffbf0 0%, #fff8e1 100%);
-  border: 2px solid #f4c84d;
-  box-shadow: 0 6px 12px rgba(244, 200, 77, 0.2);
+  background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+  border: 2px solid #047857;
+  box-shadow: 0 6px 12px rgba(4, 120, 87, 0.2);
 }
 
 .instruction {
@@ -290,7 +290,7 @@ header:after {
 /* 배치된 카드 컨테이너 */
 #placed-cards {
   background-color: white;
-  border: 2px dotted #f4c84d;
+  border: 2px dotted #047857;
   min-height: 120px;
   display: flex;
   flex-wrap: wrap;
@@ -314,9 +314,9 @@ header:after {
   display: flex;
   flex-direction: column;
   padding: 0.2rem 1.5rem;
-  background-color: #e8f8f5;
-  color: #e0a800;
-  border: 2px solid #f4c84d;
+  background-color: #d1fae5;
+  color: #047857;
+  border: 2px solid #047857;
   border-radius: 10px;
   cursor: pointer;
   user-select: none;
@@ -325,9 +325,9 @@ header:after {
 }
 
 .card:hover {
-  background-color: #d5f5e3;
+  background-color: #a7f3d0;
   transform: translateY(-3px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(4, 120, 87, 0.2);
 }
 
 .card:active {
@@ -374,9 +374,9 @@ header:after {
   text-align: center;
   padding: 1rem 2rem;
   margin-top: 1rem;
-  background-color: #e8f8f5;
-  color: #e0a800;
-  border: 2px solid #f4c84d;
+  background-color: #d1fae5;
+  color: #047857;
+  border: 2px solid #047857;
   border-radius: 10px;
   font-weight: 700;
   font-size: 1.2rem;
@@ -400,9 +400,9 @@ header:after {
 
 button {
   padding: 0.2rem 2rem;
-  background-color: #e8f8f5;
-  color: #e0a800;
-  border: 2px solid #f4c84d;
+  background-color: #d1fae5;
+  color: #047857;
+  border: 2px solid #047857;
   border-radius: 10px;
   font-size: 1.1rem;
   font-weight: 600;
@@ -411,7 +411,7 @@ button {
 }
 
 button:hover {
-  background-color: #f4c84d;
+  background-color: #047857;
   color: white;
 }
 
@@ -420,13 +420,13 @@ button:active {
 }
 
 #start-game {
-  background-color: #f4c84d;
+  background-color: #047857;
   color: white;
   font-size: 1.2rem;
 }
 
 #check-button {
-  background-color: #f4c84d;
+  background-color: #047857;
   color: white;
   height: 44px;
   display: flex;
@@ -438,18 +438,18 @@ button:active {
 
 #review-sentences {
   margin-top: 1.5rem;
-  background-color: #e8f8f5;
+  background-color: #d1fae5;
   border-radius: 15px;
   padding: 1.5rem;
   max-height: 50vh;
   overflow-y: auto;
-  border: 2px solid #f4c84d;
+  border: 2px solid #047857;
 }
 
 .review-item {
   margin-bottom: 1.5rem;
   padding: 1rem;
-  border-bottom: 1px dashed #f4c84d;
+  border-bottom: 1px dashed #047857;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -465,10 +465,10 @@ button:active {
 .sentence-number {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #f4c84d;
+  color: #047857;
   margin-bottom: 0.8rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #f4c84d;
+  border-bottom: 2px solid #047857;
 }
 
 /* 문장 박스 스타일 (A문장, B문장) */
@@ -477,7 +477,7 @@ button:active {
   padding: 0.8rem;
   background-color: #f8f9fa;
   border-radius: 8px;
-  border-left: 4px solid #f4c84d;
+  border-left: 4px solid #047857;
 }
 
 .sentence-box:last-child {
@@ -490,7 +490,7 @@ button:active {
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 0.3rem;
-  color: #f4c84d;
+  color: #047857;
 }
 
 /* 병음 스타일 */
@@ -587,7 +587,7 @@ button:active {
 
 /* 시작 버튼 스타일 */
 #start-game {
-  background-color: #f4c84d;
+  background-color: #047857;
   color: white;
   font-size: 1.2rem;
   padding: 1rem 2.5rem;
@@ -599,9 +599,9 @@ button:active {
 }
 
 #start-game:hover {
-  background-color: #e0a800;
+  background-color: #065f46;
   transform: translateY(-3px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(4, 120, 87, 0.3);
 }
 
 #start-game:active {
@@ -612,7 +612,7 @@ button:active {
 #day-selection h3 {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #e0a800;
+  color: #047857;
   font-size: 1.5rem;
 }
 
@@ -647,8 +647,8 @@ button:active {
 
 /* 시간 초과 팝업 스타일 */
 #timeout-popup .popup-content {
-  background-color: rgba(255, 242, 221, 0.95);
-  border: 3px solid #f4c84d;
+  background-color: rgba(209, 250, 229, 0.95);
+  border: 3px solid #047857;
   padding: 2rem;
   text-align: center;
   border-radius: 15px;
@@ -657,7 +657,7 @@ button:active {
 }
 
 #timeout-popup h2 {
-  color: #e0a800;
+  color: #047857;
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -680,7 +680,7 @@ button:active {
 }
 
 #completed-day {
-  color: #e0a800;
+  color: #047857;
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
@@ -691,11 +691,11 @@ button:active {
 .elapsed-time {
   text-align: center;
   font-size: 1.2rem;
-  color: #e0a800;
+  color: #047857;
   font-weight: 600;
   margin-bottom: 1rem;
   padding: 0.8rem;
-  background-color: #fffbf0;
+  background-color: #d1fae5;
   border-radius: 10px;
-  border: 2px solid #f4c84d;
+  border: 2px solid #047857;
 }
