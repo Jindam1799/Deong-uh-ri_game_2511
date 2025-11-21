@@ -1394,454 +1394,367 @@ const sentenceData = {
     },
   ],
   day4: [
-    // 16번
+    // 31번
     {
-      id: 'sentence16',
+      id: 'sentence31',
       level: 1,
       isFinal: false,
-      korean: '머리가 아파요.',
+      korean: '매우 중요하다.',
       chinese: {
-        hanzi: ['头疼'],
-        pinyin: ['tóuténg'],
+        hanzi: ['非常', '重要'],
+        pinyin: ['fēicháng', 'zhòngyào'],
       },
     },
     {
-      id: 'sentence16',
+      id: 'sentence31',
       level: 2,
       isFinal: false,
-      korean: '계속 머리가 아파요.',
+      korean: '지지는 매우 중요하다.',
       chinese: {
-        hanzi: ['一直', '头疼'],
-        pinyin: ['yìzhí', 'tóuténg'],
+        hanzi: ['支持', '非常', '重要'],
+        pinyin: ['zhīchí', 'fēicháng', 'zhòngyào'],
       },
     },
     {
-      id: 'sentence16',
+      id: 'sentence31',
+      level: 3,
+      isFinal: true,
+      korean: '부모님의 지지는 매우 중요하다.',
+      chinese: {
+        hanzi: ['父母', '的', '支持', '非常', '重要'],
+        pinyin: ['fùmǔ', 'de', 'zhīchí', 'fēicháng', 'zhòngyào'],
+      },
+    },
+    {
+      id: 'sentence32',
+      level: 1,
+      isFinal: false,
+      korean: '다른 도시.',
+      chinese: {
+        hanzi: ['不同', '的', '城市'],
+        pinyin: ['bùtóng', 'de', 'chéngshì'],
+      },
+    },
+    {
+      id: 'sentence32',
+      level: 2,
+      isFinal: false,
+      korean: '다른 도시에서 왔다.',
+      chinese: {
+        hanzi: ['来自', '不同', '的', '城市'],
+        pinyin: ['láizì', 'bùtóng', 'de', 'chéngshì'],
+      },
+    },
+    {
+      id: 'sentence32',
+      level: 3,
+      isFinal: true,
+      korean: '참가자들은 다른 도시에서 왔다.',
+      chinese: {
+        hanzi: ['参加者', '来自', '不同', '的', '城市'],
+        pinyin: ['cānjiāzhě', 'láizì', 'bùtóng', 'de', 'chéngshì'],
+      },
+    },
+    // 33번
+    {
+      id: 'sentence33',
+      level: 1,
+      isFinal: false,
+      korean: '가장 성실하다.',
+      chinese: {
+        hanzi: ['最', '认真'],
+        pinyin: ['zuì', 'rènzhēn'],
+      },
+    },
+    {
+      id: 'sentence33',
+      level: 2,
+      isFinal: false,
+      korean: '가장 성실한 (사람)',
+      chinese: {
+        hanzi: ['最', '认真', '的'],
+        pinyin: ['zuì', 'rènzhēn', 'de'],
+      },
+    },
+    {
+      id: 'sentence33',
       level: 3,
       isFinal: false,
-      korean: '요 며칠 계속 머리가 아파요.',
+      korean: '모든 사람 중에서 가장 성실한 (사람)',
       chinese: {
-        hanzi: ['这几天', '一直', '头疼'],
-        pinyin: ['zhè jǐ tiān', 'yìzhí', 'tóuténg'],
+        hanzi: ['所有', '人', '中', '最', '认真', '的'],
+        pinyin: ['suǒyǒu', 'rén', 'zhōng', 'zuì', 'rènzhēn', 'de'],
       },
     },
     {
-      id: 'sentence16',
+      id: 'sentence33',
       level: 4,
       isFinal: true,
-      korean: 'A: 저는 요 며칠 계속 머리가 아파요.',
+      korean: '그는 모든 사람 중에서 가장 성실한 사람이다.',
       chinese: {
-        hanzi: ['我', '这几天', '一直', '头疼'],
-        pinyin: ['wǒ', 'zhè jǐ tiān', 'yìzhí', 'tóuténg'],
+        hanzi: ['他', '是', '所有', '人', '中', '最', '认真', '的'],
+        pinyin: ['tā', 'shì', 'suǒyǒu', 'rén', 'zhōng', 'zuì', 'rènzhēn', 'de'],
       },
     },
+    //34
     {
-      id: 'sentence16',
-      level: 5,
+      id: 'sentence34',
+      level: 1,
       isFinal: false,
-      korean: '더 쉬어요.',
+      korean: '문서를 인쇄하다.',
       chinese: {
-        hanzi: ['多', '休息'],
-        pinyin: ['duō', 'xiūxi'],
+        hanzi: ['打印', '文件'],
+        pinyin: ['dǎyìn', 'wénjiàn'],
       },
     },
     {
-      id: 'sentence16',
-      level: 6,
+      id: 'sentence34',
+      level: 2,
       isFinal: false,
-      korean: '더 쉬어야 해요.',
+      korean: '문서를 인쇄하는 중이다.',
       chinese: {
-        hanzi: ['应该', '多', '休息'],
-        pinyin: ['yīnggāi', 'duō', 'xiūxi'],
+        hanzi: ['正在', '打印', '文件'],
+        pinyin: ['zhèngzài', 'dǎyìn', 'wénjiàn.'],
       },
     },
     {
-      id: 'sentence16',
-      level: 7,
+      id: 'sentence34',
+      level: 3,
       isFinal: true,
-      korean: 'B: 당신은 더 쉬어야 해요.',
+      korean: '선생님은 문서를 인쇄하는 중이다.',
       chinese: {
-        hanzi: ['你', '应该', '多', '休息'],
-        pinyin: ['nǐ', 'yīnggāi', 'duō', 'xiūxi'],
+        hanzi: ['老师', '正在', '打印', '文件'],
+        pinyin: ['lǎoshī', 'zhèngzài', 'dǎyìn', 'wénjiàn'],
       },
     },
 
-    // 17번
+    // 35번
     {
-      id: 'sentence17',
+      id: 'sentence35',
       level: 1,
       isFinal: false,
-      korean: '기억력이 나빠요.',
+      korean: '아주 유창하다.',
       chinese: {
-        hanzi: ['记性', '差'],
-        pinyin: ['jìxìng', 'chà'],
+        hanzi: ['非常', '流利'],
+        pinyin: ['fēicháng', 'liúlì'],
       },
     },
     {
-      id: 'sentence17',
+      id: 'sentence35',
       level: 2,
       isFinal: false,
-      korean: '기억력이 나빠졌어요.',
+      korean: '말을 아주 유창하게 하다. (= 말하는 정도가 매우 유창하다.)',
       chinese: {
-        hanzi: ['记性', '差', '了'],
-        pinyin: ['jìxìng', 'chà', 'le'],
+        hanzi: ['说', '得', '非常', '流利'],
+        pinyin: ['shuō', 'de', 'fēicháng', 'liúlì'],
       },
     },
     {
-      id: 'sentence17',
+      id: 'sentence35',
       level: 3,
-      isFinal: false,
-      korean: '기억력이 점점 나빠지고 있어요.',
-      chinese: {
-        hanzi: ['记性', '越来越', '差', '了'],
-        pinyin: ['jìxìng', 'yuèláiyuè', 'chà', 'le'],
-      },
-    },
-    {
-      id: 'sentence17',
-      level: 4,
-      isFinal: false,
-      korean: '요즘 기억력이 점점 나빠지고 있어요.',
-      chinese: {
-        hanzi: ['最近', '记性', '越来越', '差', '了'],
-        pinyin: ['zuìjìn', 'jìxìng', 'yuèláiyuè', 'chà', 'le'],
-      },
-    },
-    {
-      id: 'sentence17',
-      level: 5,
-      isFinal: true,
-      korean: 'A: 저는 요즘 기억력이 점점 나빠지는 것 같아요.',
-      chinese: {
-        hanzi: ['我', '觉得', '最近', '记性', '越来越', '差', '了'],
-        pinyin: ['wǒ', 'juéde', 'zuìjìn', 'jìxìng', 'yuèláiyuè', 'chà', 'le'],
-      },
-    },
-    {
-      id: 'sentence17',
-      level: 6,
-      isFinal: false,
-      korean: '밤을 새워요.',
-      chinese: {
-        hanzi: ['熬夜'],
-        pinyin: ['áoyè'],
-      },
-    },
-    {
-      id: 'sentence17',
-      level: 7,
-      isFinal: false,
-      korean: '자꾸 밤을 새워요.',
-      chinese: {
-        hanzi: ['总是', '熬夜'],
-        pinyin: ['zǒngshì', 'áoyè'],
-      },
-    },
-    {
-      id: 'sentence17',
-      level: 8,
-      isFinal: false,
-      korean: '자꾸 밤새면 안 돼요.',
-      chinese: {
-        hanzi: ['不应该', '总是', '熬夜'],
-        pinyin: ['bù yīnggāi', 'zǒngshì', 'áoyè'],
-      },
-    },
-    {
-      id: 'sentence17',
-      level: 9,
-      isFinal: true,
-      korean: 'B: 당신은 자꾸 밤새면 안 돼요.',
-      chinese: {
-        hanzi: ['你', '不应该', '总是', '熬夜'],
-        pinyin: ['nǐ', 'bù yīnggāi', 'zǒngshì', 'áoyè'],
-      },
-    },
-
-    // 18번
-    {
-      id: 'sentence18',
-      level: 1,
-      isFinal: false,
-      korean: '조금 마셔요.',
-      chinese: {
-        hanzi: ['喝', '一点'],
-        pinyin: ['hē', 'yìdiǎn'],
-      },
-    },
-    {
-      id: 'sentence18',
-      level: 2,
-      isFinal: false,
-      korean: '조금 더 마셔요?',
-      chinese: {
-        hanzi: ['再', '喝', '一点'],
-        pinyin: ['zài', 'hē', 'yìdiǎn'],
-      },
-    },
-    {
-      id: 'sentence18',
-      level: 3,
-      isFinal: true,
-      korean: 'A: 조금 더 마실래요?',
-      chinese: {
-        hanzi: ['要不要', '再', '喝', '一点'],
-        pinyin: ['yào bu yào', 'zài', 'hē', 'yìdiǎn'],
-      },
-    },
-    {
-      id: 'sentence18',
-      level: 4,
-      isFinal: false,
-      korean: '갔어요(떠났어요).',
-      chinese: {
-        hanzi: ['走了'],
-        pinyin: ['zǒu le'],
-      },
-    },
-    {
-      id: 'sentence18',
-      level: 5,
-      isFinal: false,
-      korean: '가야 해요.',
-      chinese: {
-        hanzi: ['得', '走', '了'],
-        pinyin: ['děi', 'zǒu', 'le'],
-      },
-    },
-    {
-      id: 'sentence18',
-      level: 6,
-      isFinal: false,
-      korean: '저는 가야 해요.',
-      chinese: {
-        hanzi: ['我', '得', '走', '了'],
-        pinyin: ['wǒ', 'děi', 'zǒu', 'le'],
-      },
-    },
-    {
-      id: 'sentence18',
-      level: 7,
-      isFinal: false,
-      korean: '안 마셔요.',
-      chinese: {
-        hanzi: ['不', '喝'],
-        pinyin: ['bù', 'hē'],
-      },
-    },
-    {
-      id: 'sentence18',
-      level: 8,
-      isFinal: false,
-      korean: '안 마실래요.',
-      chinese: {
-        hanzi: ['不', '喝', '了'],
-        pinyin: ['bù', 'hē', 'le'],
-      },
-    },
-    {
-      id: 'sentence18',
-      level: 9,
-      isFinal: true,
-      korean: 'B: 안 마실래요, 저 가야 해요.',
-      chinese: {
-        hanzi: ['不', '喝', '了，', '我', '得', '走', '了'],
-        pinyin: ['bù', 'hē', 'le', 'wǒ', 'děi', 'zǒu', 'le'],
-      },
-    },
-
-    // 19번
-    {
-      id: 'sentence19',
-      level: 1,
-      isFinal: false,
-      korean: '무슨 말을 하는 거야? (뭐라고?)',
-      chinese: {
-        hanzi: ['说什么'],
-        pinyin: ['shuō shénme'],
-      },
-    },
-    {
-      id: 'sentence19',
-      level: 2,
-      isFinal: false,
-      korean: '(말투를 부드럽게) 무슨 말을 하는 거야?',
-      chinese: {
-        hanzi: ['说', '什么', '呀'],
-        pinyin: ['shuō', 'shénme', 'ya'],
-      },
-    },
-    {
-      id: 'sentence19',
-      level: 3,
-      isFinal: false,
-      korean: '너는 무슨 말을 하는 거야?',
-      chinese: {
-        hanzi: ['你', '说', '什么', '呀'],
-        pinyin: ['nǐ', 'shuō', 'shénme', 'ya'],
-      },
-    },
-    {
-      id: 'sentence19',
-      level: 4,
-      isFinal: false,
-      korean: '너는 무슨 말을 하고 싶은 거야?',
-      chinese: {
-        hanzi: ['你', '想', '说', '什么', '呀'],
-        pinyin: ['nǐ', 'xiǎng', 'shuō', 'shénme', 'ya'],
-      },
-    },
-    {
-      id: 'sentence19',
-      level: 5,
-      isFinal: true,
-      korean: 'A: 너는 도대체 무슨 말을 하고 싶은 거야?',
-      chinese: {
-        hanzi: ['你', '到底', '想', '说', '什么', '呀'],
-        pinyin: ['nǐ', 'dàodǐ', 'xiǎng', 'shuō', 'shénme', 'ya'],
-      },
-    },
-    {
-      id: 'sentence19',
-      level: 6,
-      isFinal: false,
-      korean: '나에게 시집 와.',
-      chinese: {
-        hanzi: ['嫁给', '我'],
-        pinyin: ['jià gěi', 'wǒ'],
-      },
-    },
-    {
-      id: 'sentence19',
-      level: 7,
-      isFinal: false,
-      korean: '너는 나에게 시집 와.',
-      chinese: {
-        hanzi: ['你', '嫁给', '我'],
-        pinyin: ['nǐ', 'jià gěi', 'wǒ'],
-      },
-    },
-    {
-      id: 'sentence19',
-      level: 8,
-      isFinal: true,
-      korean: '너는 나에게 시집 올래? (결혼할래?)',
-      chinese: {
-        hanzi: ['你', '嫁给', '我', '吗'],
-        pinyin: ['nǐ', 'jià gěi', 'wǒ', 'ma'],
-      },
-    },
-    {
-      id: 'sentence19',
-      level: 9,
-      isFinal: true,
-      korean: 'B: 너는 나에게 시집 와 줄래? (결혼해 줄래?)',
-      chinese: {
-        hanzi: ['你', '愿意', '嫁给', '我', '吗'],
-        pinyin: ['nǐ', 'yuànyì', 'jià gěi', 'wǒ', 'ma'],
-      },
-    },
-
-    // 20번
-    {
-      id: 'sentence20',
-      level: 1,
-      isFinal: false,
-      korean: '의견을 받아들이다.',
-      chinese: {
-        hanzi: ['接受', '意见'],
-        pinyin: ['jiēshòu', 'yìjiàn'],
-      },
-    },
-    {
-      id: 'sentence20',
-      level: 2,
-      isFinal: false,
-      korean: '다른 사람의 의견(남의 의견)',
-      chinese: {
-        hanzi: ['别人的', '意见'],
-        pinyin: ['biérén de', 'yìjiàn'],
-      },
-    },
-    {
-      id: 'sentence20',
-      level: 3,
-      isFinal: false,
-      korean: '남의 의견을 받아들이다.',
-      chinese: {
-        hanzi: ['接受', '别人的', '意见'],
-        pinyin: ['jiēshòu', 'biérén de', 'yìjiàn'],
-      },
-    },
-    {
-      id: 'sentence20',
-      level: 4,
-      isFinal: false,
-      korean: '남의 의견을 받아들이지 않는다.',
-      chinese: {
-        hanzi: ['不', '接受', '别人的', '意见'],
-        pinyin: ['bù', 'jiēshòu', 'biérén de', 'yìjiàn'],
-      },
-    },
-    {
-      id: 'sentence20',
-      level: 5,
-      isFinal: true,
-      korean: '남의 의견을 여태껏 받아들이지 않는다.',
-      chinese: {
-        hanzi: ['从来不', '接受', '别人的', '意见'],
-        pinyin: ['cónglái bù', 'jiēshòu', 'biérén de', 'yìjiàn'],
-      },
-    },
-    {
-      id: 'sentence20',
-      level: 6,
       isFinal: true,
       korean:
-        'A: 그 사람은 남의 의견을 여태껏 안 받아들여(받아들인 적이 없어).',
+        '그의 영어는 매우 유창하다. (= 그의 영어는 말하는 정도가 매우 유창하다.)',
       chinese: {
-        hanzi: ['他', '从来不', '接受', '别人的', '意见'],
-        pinyin: ['tā', 'cónglái bù', 'jiēshòu', 'biérén de', 'yìjiàn'],
+        hanzi: ['他', '的', '英语', '说', '得', '非常', '流利'],
+        pinyin: ['tā', 'de', 'yīngyǔ', 'shuō', 'de', 'fēicháng', 'liúlì'],
       },
     },
+
+    // 36번
     {
-      id: 'sentence20',
-      level: 7,
+      id: 'sentence36',
+      level: 1,
       isFinal: false,
-      korean: '생각을 바꾸다.',
+      korean: '500미터 정도 된다.',
       chinese: {
-        hanzi: ['改变', '想法'],
-        pinyin: ['gǎibiàn', 'xiǎngfǎ'],
+        hanzi: ['有', '五百', '米'],
+        pinyin: ['yǒu', 'wǔbǎi', 'mǐ'],
       },
     },
     {
-      id: 'sentence20',
-      level: 8,
+      id: 'sentence36',
+      level: 2,
       isFinal: false,
-      korean: '자신의 생각을 바꾸다.',
+      korean: '대략 500미터 정도 된다.',
       chinese: {
-        hanzi: ['改变', '自己的', '想法'],
-        pinyin: ['gǎibiàn', 'zìjǐ de', 'xiǎngfǎ'],
+        hanzi: ['大约', '有', '五百', '米'],
+        pinyin: ['dàyuē', 'yǒu', 'wǔbǎi', 'mǐ'],
       },
     },
     {
-      id: 'sentence20',
-      level: 9,
+      id: 'sentence36',
+      level: 3,
       isFinal: false,
-      korean: '자신의 생각을 바꾸길 원하지 않아.',
+      korean: '학교에서 서점까지',
       chinese: {
-        hanzi: ['不愿意', '改变', '自己的', '想法'],
-        pinyin: ['bú yuànyì', 'gǎibiàn', 'zìjǐ de', 'xiǎngfǎ'],
+        hanzi: ['从', '学校', '到', '书店'],
+        pinyin: ['cóng', 'xuéxiào', 'dào', 'shūdiàn'],
       },
     },
     {
-      id: 'sentence20',
-      level: 10,
+      id: 'sentence36',
+      level: 4,
       isFinal: true,
-      korean: 'B: 어떤 사람들은 자신의 생각을 바꾸길 원하지 않아.',
+      korean: '학교에서 서점까지는 대략 500미터 정도 된다.',
       chinese: {
-        hanzi: ['有些人', '不愿意', '改变', '自己的', '想法'],
-        pinyin: ['yǒuxiē rén', 'bú yuànyì', 'gǎibiàn', 'zìjǐ de', 'xiǎngfǎ'],
+        hanzi: ['从', '学校', '到', '书店', '大约', '有', '五百', '米'],
+        pinyin: [
+          'cóng',
+          'xuéxiào',
+          'dào',
+          'shūdiàn',
+          'dàyuē',
+          'yǒu',
+          'wǔbǎi',
+          'mǐ',
+        ],
+      },
+    },
+    // 37번
+    {
+      id: 'sentence37',
+      level: 1,
+      isFinal: false,
+      korean: '다른 사람에게 주다.',
+      chinese: {
+        hanzi: ['给', '别人'],
+        pinyin: ['gěi', 'biérén'],
+      },
+    },
+    {
+      id: 'sentence37',
+      level: 2,
+      isFinal: false,
+      korean: '지갑을 다른 사람에게 주다.',
+      chinese: {
+        hanzi: ['把', '钱包', '给', '别人'],
+        pinyin: ['bǎ', 'qiánbāo', 'gěi', 'biérén'],
+      },
+    },
+    {
+      id: 'sentence37',
+      level: 3,
+      isFinal: false,
+      korean: '지갑을 다른 사람에게 주지 마라.',
+      chinese: {
+        hanzi: ['不', '要', '把', '钱包', '给', '别人'],
+        pinyin: ['bú', 'yào', 'bǎ', 'qiánbāo', 'gěi', 'biérén'],
+      },
+    },
+    {
+      id: 'sentence37',
+      level: 4,
+      isFinal: true,
+      korean: '절대 지갑을 다른 사람에게 주지 마라.',
+      chinese: {
+        hanzi: ['千万', '不', '要', '把', '钱包', '给', '别人'],
+        pinyin: ['qiānwàn', 'bú', 'yào', 'bǎ', 'qiánbāo', 'gěi', 'biérén'],
+      },
+    },
+
+    // 38번
+    {
+      id: 'sentence38',
+      level: 1,
+      isFinal: false,
+      korean: '누가 말해?',
+      chinese: {
+        hanzi: ['谁', '说', '话'],
+        pinyin: ['shéi', 'shuō', 'huà'],
+      },
+    },
+    {
+      id: 'sentence38',
+      level: 2,
+      isFinal: false,
+      korean: '누가 멈추지 않고 말해?',
+      chinese: {
+        hanzi: ['谁', '不停', '地', '说', '话'],
+        pinyin: ['shéi', 'bùtíng', 'de', 'shuō', 'huà'],
+      },
+    },
+    {
+      id: 'sentence38',
+      level: 3,
+      isFinal: false,
+      korean: '누가 계속 말하고 있어? (= 누가 멈추지 않고 말하고 있어?)',
+      chinese: {
+        hanzi: ['谁', '在', '不停', '地', '说话'],
+        pinyin: ['shéi', 'zài', 'bùtíng', 'de', 'shuō', 'huà'],
+      },
+    },
+    {
+      id: 'sentence38',
+      level: 4,
+      isFinal: true,
+      korean:
+        '도대체 누가 계속 말하고 있는 거야? (= 도대체 누가 멈추지 않고 말하고 있는 거야?)',
+      chinese: {
+        hanzi: ['到底', '是', '谁', '在', '不停', '地', '说', '话'],
+        pinyin: ['dàodǐ', 'shì', 'shéi', 'zài', 'bùtíng', 'de', 'shuō', 'huà'],
+      },
+    },
+    // 39번
+    {
+      id: 'sentence39',
+      level: 1,
+      isFinal: false,
+      korean: '나에게 결제하게 하다.',
+      chinese: {
+        hanzi: ['让', '我', '付', '款'],
+        pinyin: ['ràng', 'wǒ', 'fù', 'kuǎn'],
+      },
+    },
+    {
+      id: 'sentence39',
+      level: 2,
+      isFinal: false,
+      korean: '나에게 현금으로 결제하게 하다.',
+      chinese: {
+        hanzi: ['让', '我', '用', '现金', '付', '款'],
+        pinyin: ['ràng', 'wǒ', 'yòng', 'xiànjīn', 'fù', 'kuǎn'],
+      },
+    },
+    {
+      id: 'sentence39',
+      level: 3,
+      isFinal: true,
+      korean: '사장님이 나에게 현금으로 결제하라고 한다. ',
+      chinese: {
+        hanzi: ['老板', '让', '我', '用', '现金', '付', '款'],
+        pinyin: ['lǎobǎn', 'ràng', 'wǒ', 'yòng', 'xiànjīn', 'fù', 'kuǎn'],
+      },
+    },
+    // 40번
+    {
+      id: 'sentence40',
+      level: 1,
+      isFinal: false,
+      korean: '찢었다, 망가뜨렸다',
+      chinese: {
+        hanzi: ['弄', '破', '了'],
+        pinyin: ['nòng', 'pò', 'le'],
+      },
+    },
+    {
+      id: 'sentence40',
+      level: 2,
+      isFinal: false,
+      korean: '내가 찢었다. (= 나에 의해 찢어졌다.)',
+      chinese: {
+        hanzi: ['被', '我', '弄', '破', '了'],
+        pinyin: ['bèi', 'wǒ', 'nòng', 'pò', 'le'],
+      },
+    },
+    {
+      id: 'sentence40',
+      level: 3,
+      isFinal: true,
+      korean: '옷을 내가 찢어버렸다. (= 옷은 나에 의해 찢어졌다.)',
+      chinese: {
+        hanzi: ['衣服', '被', '我', '弄', '破', '了'],
+        pinyin: ['yīfu', 'bèi', 'wǒ', 'nòng', 'pò', 'le'],
       },
     },
   ],
