@@ -385,7 +385,7 @@ const sentenceData = {
       isFinal: true,
       korean: '공원에 가는 사람이 평소보다 두 배 많아졌다..',
       chinese: {
-        hanzi: ['去', '公园', '的人', '比', '平时', '多', '了', '一', '倍'],
+        hanzi: ['去', '公园', '的', '人', '比', '平时', '多', '了', '一', '倍'],
         pinyin: [
           'qù',
           'gōngyuán',
@@ -437,7 +437,7 @@ const sentenceData = {
       isFinal: true,
       korean: '번거로우시겠지만 (당신은) 여권을 꺼내 주세요.',
       chinese: {
-        hanzi: ['麻烦', '您', '把', '护照', '拿出来'],
+        hanzi: ['麻烦', '您', '把', '护照', '拿', '出来'],
         pinyin: ['mánfàn', 'nín', 'bǎ', 'hùzhào', 'ná', 'chūlai'],
       },
     },
