@@ -190,7 +190,7 @@ const sentenceData = {
       isFinal: true,
       korean: '친구 사이에는 서로 도와야 한다.',
       chinese: {
-        hanzi: ['朋友之间要互相帮助'],
+        hanzi: ['朋友', '之间', '要', '互相', '帮助'],
         pinyin: ['péngyou', 'zhījiān', 'yào', 'xiānghù', 'bāngzhù'],
       },
     },
