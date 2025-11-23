@@ -473,8 +473,8 @@ button:active {
   content: '진심이 담긴';
   position: absolute;
   top: 85%;
-  left: 86%;
-  transform: translate(-50%, -50%);
+  right: 5%;
+  transform: translate(-0, -50%);
   font-size: 1rem;
   font-weight: 900;
   color: rgba(4, 120, 87, 0.119);
@@ -489,8 +489,8 @@ button:active {
   content: '진담 중국어';
   position: absolute;
   top: 85%;
-  left: 86%;
-  transform: translate(-50%, -50%);
+  right: 5%;
+  transform: translate(0, -50%);
   font-size: 1rem;
   font-weight: 900;
   color: rgba(4, 120, 87, 0.119);
