@@ -375,7 +375,7 @@ const sentenceData = {
       isFinal: false,
       korean: '공원에 가는 사람',
       chinese: {
-        hanzi: ['去', '公园', '的人'],
+        hanzi: ['去', '公园', '的', '人'],
         pinyin: ['qù', 'gōngyuán', 'de', 'rén'],
       },
     },
