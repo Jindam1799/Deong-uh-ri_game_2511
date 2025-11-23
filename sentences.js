@@ -178,7 +178,7 @@ const sentenceData = {
       id: 'sentence4',
       level: 3,
       isFinal: false,
-      korean: '친구 사이.',
+      korean: '친구 사이',
       chinese: {
         hanzi: ['朋友', '之间'],
         pinyin: ['péngyou', 'zhījiān'],
@@ -220,7 +220,7 @@ const sentenceData = {
       id: 'sentence5',
       level: 3,
       isFinal: false,
-      korean: '모든 사람의 임무.',
+      korean: '모든 사람의 임무',
       chinese: {
         hanzi: ['每', '个', '人', '的', '任务'],
         pinyin: ['měi', 'ge', 'rén', 'de', 'rènwu'],
@@ -373,7 +373,7 @@ const sentenceData = {
       id: 'sentence8',
       level: 5,
       isFinal: false,
-      korean: '공원에 가는 사람.',
+      korean: '공원에 가는 사람',
       chinese: {
         hanzi: ['去', '公园', '的人'],
         pinyin: ['qù', 'gōngyuán', 'de', 'rén'],
@@ -383,7 +383,7 @@ const sentenceData = {
       id: 'sentence8',
       level: 6,
       isFinal: true,
-      korean: '공원에 가는 사람이 평소보다 두 배 많아졌다..',
+      korean: '공원에 가는 사람이 평소보다 두 배 많아졌다.',
       chinese: {
         hanzi: ['去', '公园', '的', '人', '比', '平时', '多', '了', '一', '倍'],
         pinyin: [
