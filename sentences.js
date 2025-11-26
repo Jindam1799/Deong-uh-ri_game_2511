@@ -1861,7 +1861,7 @@ const sentenceData = {
       isFinal: true,
       korean: '책을 소파 위에 던지지 마라.',
       chinese: {
-        hanzi: ['别', '把', '书', '扔在', '沙发', '上'],
+        hanzi: ['别', '把', '书', '扔', '在', '沙发', '上'],
         pinyin: ['bié', 'bǎ', 'shū', 'rēng', 'zài', 'shāfā', 'shàng'],
       },
     },
