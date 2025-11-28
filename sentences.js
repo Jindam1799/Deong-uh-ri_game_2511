@@ -4021,8 +4021,8 @@ const sentenceData = {
       isFinal: false,
       korean: '순조롭게 채용에 통과하다.',
       chinese: {
-        hanzi: ['顺利通过', '应聘'],
-        pinyin: ['shùnlì tōngguò', 'yìngpìn'],
+        hanzi: ['顺利', '通过', '应聘'],
+        pinyin: ['shùnlì', 'tōngguò', 'yìngpìn'],
       },
     },
     {
