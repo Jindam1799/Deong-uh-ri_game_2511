@@ -3146,16 +3146,7 @@ const sentenceData = {
         '다 그가 분류해서 정리했다. (= 다 그에 의해 분류되어 잘 정리됐다.)',
       chinese: {
         hanzi: ['都', '被', '他', '分类', '整理', '好', '了'],
-        pinyin: [
-          'dōu',
-          'qǐng',
-          'bǎ',
-          'zhè',
-          'duàn',
-          'nèiróng',
-          'fānyì',
-          'yíxià',
-        ],
+        pinyin: ['dōu', 'bèi', 'tā', 'fēnlèi', 'zhěnglǐ', 'hǎo', 'le'],
       },
     },
     {
